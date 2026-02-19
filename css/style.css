@@ -1,0 +1,39 @@
+p > a:first-child {
+  color: rgb(55, 55, 245);     /* Ejercicio 1: El primer elemento <a> hijo de <p> */
+}
+
+form > input[type="checkbox"]:checked{
+  accent-color: green;               /* Ejercicio 2: Selecciona los checkbox que estén marcados, hijos de un <form> */ 
+}
+
+article p:last-of-type {
+  color: magenta;                        /* Ejercicio 3: Selecciona el último <p> que sea descendiente de <article> */
+}
+
+section#ejercicio4 :nth-child(2) {
+  color: orange;                         /* Ejercicio 4: Seleccionar el segundo hijo de un elemento section */
+}
+
+ol :nth-child(2n) {
+  color: cyan;                           /* Ejercicio 5: Seleccionar los hijos pares de un elemento ol */
+}
+
+ul li:nth-last-child(3) {
+  color: brown;                          /* Ejercicio 6: Seleccionar el antepenúltimo li de un ul de longitud indefinida */
+}
+
+p a:nth-child(2) {
+  color: red;                            /* Ejercicio 7: El segundo <a> de dentro de un <p> */
+}
+
+button:only-child {
+  background-color: yellow;              /* Ejercicio 8: Los button que sean hijos único */
+}
+
+p > span:first-child {
+  color: purple;                         /* Ejercicio 9: Los span que sean primeros hijos de un <p> */
+}
+
+body > main:nth-of-type(2) {
+  color: pink;                         /* Ejercicio 10: El penúltimo hijo de body */
+}

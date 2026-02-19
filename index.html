@@ -1,0 +1,133 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <!-- Codificación -->
+    <meta charset="utf-8">
+
+    <!-- Titulo para el navegador y los buscadores-->
+    <title>Ejercicios pseudoclases - CSS</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Primera prueba de uso de pseudoclases para CSS">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon de la página -->
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <!-- Conexión con plantillas estilo css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Conexión con  webmanifest para que la web sea progressive-->
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Color del banner para los dispositivos moviles -->
+    <meta name="theme-color" content="#fafafa">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="Miguel Corredera Aceves">
+</head>
+
+<body>
+  <header>
+    <h1>Primera prueba de uso de pseudoclases de CSS</h1>
+    <hr>
+  </header>
+  <main>
+    <section>
+      <h2>Ejercicio 1 - El primer elemento &lt;a&gt; hijo de &lt;p&gt;</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing <a href="">elit</a>. Sint pariatur placeat ex dolores, 
+        esse ipsa eius, iusto vitae earum aliquid sunt cumque quibusdam veniam vero reiciendis eaque <a href="">magnam quae ullam</a>.
+      </p>
+    </section>
+    <section>
+      <h2>Ejercicio 2 - Selecciona los checkbox que estén marcados, hijos de un &lt;form&gt;</h2>
+      <form action="#">
+        <label for="checkbox1">Ejemplo 1</label>
+        <input type="checkbox" name="ejemplo1" id="checkbox1">
+        <label for="checkbox2">Ejemplo 2</label>
+        <input type="checkbox" name="ejemplo2" id="checkbox2">
+        <label for="checkbox3">Ejemplo 3</label>
+        <input type="checkbox" name="ejemplo3" id="checkbox3">
+      </form>
+    </section>
+    <section>
+      <h2>Ejercicio 3 - Selecciona el último &lt;p&gt; que sea descendiente de &lt;article&gt;</h2>
+      <article>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sapiente. Laborum delectus voluptatum necessitatibus unde ad assumenda maiores tenetur sed tempora officiis, repellendus, aliquid sint quo suscipit nisi? In, similique.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt aut cum molestias optio, ratione nisi, quas quia harum inventore in laudantium et dolor laborum fugiat nam rerum delectus atque. Eveniet.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse iusto obcaecati consequatur dolorum eius porro asperiores, accusantium natus dolorem quia deleniti! Ducimus omnis fugit illum dicta eligendi aliquid exercitationem iste?</p>
+      </article>
+    </section>
+    <section>
+      <h2>Ejercicio 4 - Seleccionar el segundo hijo de un elemento section</h2>
+      <section id="ejercicio4">
+        <h3>Este es el primer hijo del elemento section</h3>
+        <p>Este es un parrafo que hace de segundo hijo del elemento section</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi illum ipsa adipisci sit incidunt sunt magnam aspernatur eius quam consequuntur dolore repudiandae, perferendis commodi numquam facere cumque labore asperiores.</p>
+      </section>
+    </section>
+    <section>
+      <h2>Ejercicio 5 - Seleccionar los hijos pares de un elemento ol </h2>
+      <ol>
+        <li>1º elemento</li>
+        <li>2º elemento</li>
+        <li>3º elemento</li>
+        <li>4º elemento</li>
+        <li>5º elemento</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Ejercicio 6 - Seleccionar el antepenúltimo li de un ul de longitud indefinida</h2>
+      <ul>
+        <li>1º elemento</li>
+        <li>2º elemento</li>
+        <li>3º elemento</li>
+        <li>4º elemento</li>
+        <li>5º elemento</li>
+        <li>6º elemento</li>
+        <li>7º elemento</li>
+        <li>8º elemento</li>
+        <li>9º elemento</li>
+        <li>10º elemento</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Ejercicio 7 - El segundo &lt;a&gt; de dentro de un &lt;p&gt;</h2>
+      <p>Lorem ipsum dolor sit amet consectetur <a href="">adipisicing</a> elit. Velit, at perferendis! Repellendus, nisi autem! Ea, vero. 
+        Repudiandae minus architecto nulla incidunt, omnis sunt assumenda <a href="">similique debitis</a> veniam id fuga exercitationem.</p>
+    </section>
+    <section>
+      <h2>Ejercicio 8 - Los button que sean hijos únicos</h2>
+      <div>
+        <button>Si es hijo unico</button>
+      </div>
+      <div>
+        <button>No es hijo unico</button>
+        <button>No es hijo unico</button>
+      </div>
+    </section>
+    <section>
+      <h2>Ejercicio 9 - Los span que sean primeros hijos de un &lt;p&gt;</h2>
+      <p>
+        Lorem ipsum dolor sit, amet <span>consectetur adipisicing elit</span>. Voluptates reprehenderit sint voluptas sunt incidunt numquam totam. 
+        Animi eligendi, magnam eveniet quisquam dignissimos unde beatae eum dolorem veniam velit! Tenetur, sunt.
+      </p>
+    </section>
+  </main>
+  <main>
+    <h2>Ejercicio 10 - Penúltimo hijo de body</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab temporibus esse, exercitationem ipsam vitae voluptates! Tenetur, error minus! Et incidunt esse aperiam accusantium modi vel non ullam id sint nam!</p>
+  </main>
+  <footer> 
+  </footer>
+    
+</body>
+
+</html>
