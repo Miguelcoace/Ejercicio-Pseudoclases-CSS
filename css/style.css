@@ -2,9 +2,11 @@ p > a:first-child {
   color: rgb(55, 55, 245);     /* Ejercicio 1: El primer elemento <a> hijo de <p> */
 }
 
-form > input[type="checkbox"]:checked{
-  accent-color: green;               /* Ejercicio 2: Selecciona los checkbox que estén marcados, hijos de un <form> */ 
-}
+
+form > label:has(+ input[type="checkbox"]:checked) {
+  accent-color: green;
+  color: green;                         /* Ejercicio 2: Selecciona los checkbox que estén marcados, hijos de un <form> */            
+} 
 
 article p:last-of-type {
   color: magenta;                        /* Ejercicio 3: Selecciona el último <p> que sea descendiente de <article> */
