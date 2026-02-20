@@ -36,6 +36,6 @@ p > span:first-child {
   color: purple;                         /* Ejercicio 9: Los span que sean primeros hijos de un <p> */
 }
 
-body > main:nth-of-type(2) {
+body > :nth-last-child(2) {
   color: pink;                         /* Ejercicio 10: El penúltimo hijo de body */
 }
